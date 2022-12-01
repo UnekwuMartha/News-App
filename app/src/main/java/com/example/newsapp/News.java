@@ -28,7 +28,9 @@ public class News {
         return section;
     }
 
-    public String getDate() { return date; }
+    public String getDate() {
+        return date;
+    }
 
     public String getUrl() {
         return url;

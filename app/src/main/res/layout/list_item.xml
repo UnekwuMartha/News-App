@@ -2,49 +2,36 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:padding="@dimen/horizontal_padding">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/vertical_margin">
+        android:layout_marginBottom="@dimen/horizontal_margin"
+        android:text="@string/title_placeholder"
+        android:textSize="@dimen/title_text_size"
+        android:textColor="@color/black"/>
 
-        <TextView
-            android:id="@+id/title"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/title_placeholder"
-            android:textSize="@dimen/title_text_size"
-            android:layout_marginBottom="@dimen/horizontal_margin"/>
-
-        <TextView
-            android:id="@+id/author"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/author_placeholder"
-            android:textSize="@dimen/details_text_size"/>
-
-        <TextView
-            android:id="@+id/section"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/section_placeholder"
-            android:textSize="@dimen/details_text_size"/>
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/vertical_margin">
-        <TextView
-            android:id="@+id/date"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/date_placeholder"
-            android:textSize="@dimen/details_text_size"/>
-    </LinearLayout>
+        android:text="@string/author_placeholder"
+        android:textSize="@dimen/details_text_size" />
 
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/section_placeholder"
+        android:textSize="@dimen/details_text_size" />
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/date_placeholder"
+        android:textSize="@dimen/details_text_size" />
 </LinearLayout>
