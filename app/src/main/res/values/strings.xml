@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="title_placeholder">Title</string>
+    <string name="author_placeholder">Author</string>
+    <string name="section_placeholder">Section</string>
+    <string name="date_placeholder">06/06/2022</string>
+    <string name="empty_view_text">No News Stories Available</string>
+    <string name="bad_network_text">Sorry, We are having issues with our servers</string>
+</resources>
